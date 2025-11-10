@@ -4,7 +4,9 @@
 [![Tests](https://img.shields.io/github/actions/workflow/status/callpage/callpage-sdk/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/callpage/callpage-sdk/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/callpage/callpage-sdk.svg?style=flat-square)](https://packagist.org/packages/callpage/callpage-sdk)
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+PHP wrapper for CallPage REST API.
+
+Go to [CallPage](https://callpage.io) to get your API Key.
 
 ## Installation
 
@@ -17,18 +19,15 @@ composer require callpage/callpage-sdk
 ## Usage
 
 ```php
-$callpage = new CallPage\CallPage("Your API Key");;
+use CallPage\CallPage\CallPage;
+
+$callpage = new CallPage("Your API Key");
 $callpage->widget($id)->call($phone);
 ```
 
 ## Security Vulnerabilities
 
 Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
-- [CallPage Team](https://github.com/CallPage)
-- [All Contributors](../../contributors)
 
 ## License
 

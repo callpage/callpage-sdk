@@ -5,10 +5,10 @@ use GuzzleHttp\Client;
 
 class CallPage
 {
-    const BASE_URL = 'https://core.callpage.io/api/';
-    const V1 = 'v1';
-    const V2 = 'v2';
-    const V3 = 'v3';
+    const string BASE_URL = 'https://core.callpage.io/api/';
+    const string V1 = 'v1';
+    const string V2 = 'v2';
+    const string V3 = 'v3';
 
     protected string $apiKey;
 
