@@ -1,9 +1,11 @@
 <?php
+
 namespace CallPage\CallPage;
 
 class CallPage
 {
     protected string $apiKey;
+
     protected Widget $widget;
 
     public function __construct(string $apiKey)
